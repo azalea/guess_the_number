@@ -1,0 +1,132 @@
+.myform {
+    margin: 0 auto;
+    width: 500px;
+    padding: 14px;
+    border: solid 2px #b7ddf2;
+    background: #ebf4fb;
+}
+
+h1 {
+    text-align: center;
+}
+
+.myform label {
+    width: 250px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    float: left;
+}
+
+.myform span {
+    color: #666666;
+    width: 250px;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+}
+.myform input {
+    float:left;
+    font-size:14px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:75px;
+    margin:2px 0 20px 10px;
+}
+
+.myform button {
+    clear: both;
+    margin-left: 10px;
+    width: 75px;
+    height: 28px;
+    background: #666666;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.warning {
+    margin: 0 auto;
+    width: 500px;
+    padding: 4px 14px;
+    border: solid 2px #ffc2c2;
+    background: #fff0f0;
+    font-size: 14px;
+    display: none;
+
+}
+
+.gameover {
+    margin: 0 auto;
+    width: 500px;
+    padding: 4px 14px;
+    border: solid 2px #ffff80;
+    background: #ffffe6;
+    font-size: 14px;
+    display: none;
+}
+
+.gameover p {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gameover span {
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.gameover button {
+    clear: both;
+    margin-left: 200px;
+    width: 100px;
+    height: 28px;
+    background: #666666;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.result {
+    margin: 0 auto;
+    width: 500px;
+    padding: 14px;
+    border: solid 2px #c2ffc2;
+    background: #ebffeb;
+    font-size: 14px;
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    border: 1px solid #c2ffb2;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #c2ffb2;
+    padding: 8px;
+    font-size: 14px;
+}
+
+th {
+    background-color:#88b288;
+    color:white;
+}
+
+.note {
+    width: 70%;
+    margin: auto;
+}

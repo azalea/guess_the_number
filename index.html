@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+		<title>Guess the number</title>
+        <link type='text/css' rel='stylesheet' href='stylesheet.css'/>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+        <script type='text/javascript' src='script.js'></script>
+	</head>
+	<body>
+        <div class='myform'>
+            <h1>Guess the number</h1>
+            <label>Input a 4-digit number
+                <span>with unique digits</span>
+            </label>
+            <input type='text' name='guess' id='guess'>
+            <button type='submit' id='guess-button'>Guess!</button>
+        </div>
+        <div class='warning'></div>
+        <div class='gameover'>
+            <h1>Guess the number</h1>
+            <button type='button' id='game-button'>New game</button>
+        </div>
+        <div class='result'>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Chances<br>left</th>
+                        <th>Your guess</th>
+                        <th>Hint</th>
+                    </tr>                    
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div class='note'>
+                <h3>Note on hint notation</h3>
+                <strong>A</strong>: correct digit at correct position.<br>
+                <strong>B</strong>: correct digit at incorrect position.<br>
+                e.g. The number is <strong>1234</strong>, and you guessed <strong>1253</strong>.<br>
+                The hint will be <strong>2A1B</strong>.<br>
+                That means <strong>2</strong> correct digits at correct position<br>
+                and <strong>1</strong> correct digit at incorrect position.<br>
+            </div>
+        </div>
+	</body>
+</html>
